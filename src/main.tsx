@@ -3,8 +3,8 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { Providers } from "./providers.tsx";
-import { routeTree } from "./routeTree.gen";
+import { Providers } from "~/providers.tsx";
+import { routeTree } from "~/routeTree.gen";
 
 const router = createRouter({ routeTree });
 
