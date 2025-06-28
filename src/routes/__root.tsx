@@ -7,9 +7,9 @@ import {
   NavbarItem,
 } from "@heroui/react";
 import {
+  createRootRoute,
   Outlet,
   Link as RouterLink,
-  createRootRoute,
   useRouterState,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/router-devtools";
