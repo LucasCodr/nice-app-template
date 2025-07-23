@@ -1,5 +1,6 @@
 import {
   Button,
+  Divider,
   Link,
   Navbar,
   NavbarBrand,
@@ -55,7 +56,7 @@ function Layout() {
           </NavbarItem>
         </NavbarContent>
       </Navbar>
-      <hr />
+      <Divider />
       <Outlet />
       <TanStackRouterDevtools />
     </>
